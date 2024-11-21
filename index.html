@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Gabriel and Gustavo Lebre</h1>
+        <h2>Dice Game</h2>
+        <div id="game-info">
+            <p id="round-info">Round: 1</p>
+            <div id="scores">
+                <p>Player Total Score: <span id="player-total">0</span></p>
+                <p>Computer Total Score: <span id="computer-total">0</span></p>
+            </div>
+            <div id="roll-results">
+                <div class="dice-container">
+                    <h3>Player Roll:</h3>
+                    <img id="player-dice1" class="dice" src="images/placeholder.png" alt="Dice 1">
+                    <img id="player-dice2" class="dice" src="images/placeholder.png" alt="Dice 2">
+                </div>
+                <div class="dice-container">
+                    <h3>Computer Roll:</h3>
+                    <img id="computer-dice1" class="dice" src="images/placeholder.png" alt="Dice 1">
+                    <img id="computer-dice2" class="dice" src="images/placeholder.png" alt="Dice 2">
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="roll-btn">Roll Dice</button>
+            <button id="reset-btn">Reset Game</button>
+        </div>
+        <p id="winner-message"></p>
+    </div>
+    
+</body>
+</html>
